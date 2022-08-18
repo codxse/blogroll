@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+DOCKER_BUILDKIT=1  USER_ID=$(id -u) GROUP_ID=$(id -g) docker build -f Dockerfile.dev -t id.blogroll/app:latest .
